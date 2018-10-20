@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZEO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<section>
+    <button class="openModal">Open Modal</button>
+</section>
+<div class="modal">
+    <div class="modalBackDrop"></div>
+    <div class="modalContainer">
+        <div class="modalClose modalCloseIcon">
+            <img src="img/icon-popup-close.svg" alt="">
+        </div>
+        <div class="modalInnerContent">
+            <div class="flexBox flexColumn">
+                <div class="flexItem">
+                    <div class="cancelIcon fullWidth floatLeft">
+                        <img src="img/icon-warning_notify-red.svg" alt="">
+                    </div>
+                </div>
+                <div class="flexItem">
+                    <div class="cancelText fullWidth floatLeft">
+                        Are you sure you want to uninstall the Shazam app
+                    </div>
+                </div>
+                <div class="flexItem">
+                    <div class="flexBox fullWidth flexRow cancelButtons">
+                        <div class="flexItem">
+                            <button class="customButton fullWidth modalClose whiteButton">Cancel</button>
+                        </div>
+                        <div class="flexItem">
+                            <button class="customButton fullWidth redButton modalClose modalCloseAlert">Uninstall</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
